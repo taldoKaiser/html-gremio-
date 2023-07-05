@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Grêmio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Blog do Grêmio</h1>
+</header>
+
+<nav>
+  <ul class="lista">
+    <li>História</li>
+    <li>Títulos</a></li>
+    <li>Hino</a></li>
+  </ul>
+</nav>
+
+<div class="texto-completo">
+<main>
+  <section id="historia">
+    <div class="logo-gremio">
+      <img src="gremio-logo.svg">
+    </div>
+    <h2>História do Grêmio</h2>
+      <div class="p1">
+        <p>Foi por meio do paulista Cândido Dias da Silva, que trabalhava em Porto Alegre, que o Grêmio surgiu. A história é curiosa: houve uma partida de futebol para exibição do esporte, na capital gaúcha, com jogadores convidados ingleses e alemães. Durante a partida, a bola estourou e Cândido, que tinha uma bola em mãos, mas não sabia jogar, emprestou a sua para viabilizar o término da partida. Ao final do jogo, os jogadores ensinaram a Cândido as regras do esporte, e também a como montar um clube. Assim, com trinta e dois participantes presentes, em 15 de setembro de 1903, fundou-se o Grêmio Foot-Ball Porto Alegrense. </p>
+        <p>Nas duas primeiras décadas de existência, o Grêmio era um time amador, ainda que disputasse alguns jogos com outros times da cidade. Após esse período, iniciou-se uma fase de profissionalização do futebol, e o Grêmio consagrou-se como um dos grandes times brasileiros, refletidos na quantidade de títulos que serão descritos a seguir:</p>
+      </div>
+  </section>
+
+  <section id="titulos">
+    <h2>Títulos</h2>
+        <p><strong>Títulos Internacionais:</strong></p>
+      <p> - Mundial interclubes em 1983;</p>
+      <p> - Copa Libertadores da América em 1983 e 1995;</p>
+      <p>- Recopa Sul-Americana em 1996;</p>
+        <p><strong>Títulos Nacionais</strong></p>
+      <p>- Campeão Brasileiro em 1981 e 1996;</p>
+      <p>- Supercampeão do Brasil em 1990;</p>
+      <p>- Campeão da Copa do Brasil em 1989, 1994, 1997 e 2001;</p>
+      <p>- Campeão Brasileiro da série B em 2005;</p>
+      <p>- Campeão da Copa Sul-Brasileira em 1999;</p>
+        <p><strong>Títulos Estaduais e Municipais</strong></p>
+      <p>- Campeão da Cidade de Porto Alegre em 1904, 1905, 1906, 1907, 1909, 1911, 1912, 1913, 1914, 1915, 1919, 1920, 1921, 1922, 1923, 1925, 1926, 1930, 1931, 1932, 1933, 1935, 1937, 1938, 1939, 1946, 1949, 1956, 1957, 1958, 1959, 1960, 1964 e 1965;</p>
+      <p>- Campeão Gaúcho em 1921, 1922, 1926, 1931, 1932, 1946, 1949, 1956, 1957, 1958, 1959, 1960, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1977, 1979, 1980, 1985, 1986, 1987, 1988, 1989, 1990, 1993, 1995, 1996, 1999, 2001, 2006, 2007 e 2010;</p>
+      <p>- Copa FGF em 2010;</p>
+      <p>- Taça Fernando Carvalho em 2010.</p>
+  </section>
+
+  <section id="hino">
+    <h2>Hino</h2>
+      <p>O grêmio já teve dois hinos de louvor ao clube, antes do atual. O primeiro foi escrito em 1924, e o segundo, de 1946, foi resultado de um concurso promovido pelo Grêmio. Atualmente, o hino oficial do Grêmio Foot-Ball Porto Alegrense foi escrito pelo famoso compositor Lupicínio Rodrigues. Segue a letra desse hino tão popular:</p>
+        <p>"Até a pé nós iremos
+        <br>
+        para o que der e vier
+        <br>
+        o certo é que nós estaremos
+        <br>
+        com o Grêmio onde o Grêmio estiver
+        </p>
+
+        <p>Cinquenta anos de glórias
+        <br>
+        tens imortal tricolor
+        <br>
+        os feitos da tua história
+        <br>
+        canta o Rio Grande com amor
+        </p>
+
+        <p>(refrão)</p>
+              
+        <p>Nós como bons torcedores
+        <br>
+        sem hesitarmos sequer
+        <br>
+        aplaudiremos o Grêmio
+        <br>
+        aonde o Grêmio estiver
+        </p> 
+              
+        <p>(refrão)</p>
+              
+        <p>Lara o craque imortal
+        <br>
+        soube seu nome elevar
+        <br>
+        hoje com o mesmo ideal
+        <br>
+        nós saberemos te honrar"
+        </p>
+  </section>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>Faça sua pergunta</h2>
+    </div>
+    <div class="card-body">
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+          
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+          
+        <label for="question">Pergunta:</label>
+        <textarea id="question" name="question" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+</html>
